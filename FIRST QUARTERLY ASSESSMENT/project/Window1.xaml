@@ -1,0 +1,88 @@
+﻿<Window x:Class="FIRST_QUARTERLY_ASSESSMENT.project.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FIRST_QUARTERLY_ASSESSMENT.project"
+        mc:Ignorable="d"
+        Title="Window1" Height="1272.333" Width="800">
+    <Grid Margin="-1,0,1.333,-0.333">
+        <Label x:Name="lblId" Content="Label" HorizontalAlignment="Left" Height="23" Margin="471,29,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblTitle" Content="Label" HorizontalAlignment="Left" Height="26" Margin="471,52,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblSlug" Content="Label" HorizontalAlignment="Left" Height="25" Margin="471,78,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblDescription" Content="Label" HorizontalAlignment="Left" Height="24" Margin="471,108,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblActive" Content="Label" HorizontalAlignment="Left" Height="25" Margin="471,137,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblCount" Content="Label" HorizontalAlignment="Left" Height="29" Margin="471,167,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbl_Ift" Content="Label" HorizontalAlignment="Left" Height="26" Margin="471,201,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbl_Rgt" Content="Label" HorizontalAlignment="Left" Height="25" Margin="471,232,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblParent_id" Content="Label" HorizontalAlignment="Left" Height="27" Margin="471,257,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbldepth" Content="Label" HorizontalAlignment="Left" Height="26" Margin="471,284,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblChildren" Content="Label" HorizontalAlignment="Left" Height="25" Margin="471,310,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblId1" Content="Label" HorizontalAlignment="Left" Height="23" Margin="49,47,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblTittle" Content="Label" HorizontalAlignment="Left" Height="26" Margin="49,70,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblSlug1" Content="Label" HorizontalAlignment="Left" Height="25" Margin="49,96,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblDescription1" Content="Label" HorizontalAlignment="Left" Height="24" Margin="49,126,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblActive1" Content="Label" HorizontalAlignment="Left" Height="25" Margin="49,155,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblCount1" Content="Label" HorizontalAlignment="Left" Height="29" Margin="49,185,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbl_Ift1" Content="Label" HorizontalAlignment="Left" Height="26" Margin="49,219,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbl_Rgt1" Content="Label" HorizontalAlignment="Left" Height="25" Margin="49,250,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblParent_id1" Content="Label" HorizontalAlignment="Left" Height="27" Margin="49,275,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbldepth1" Content="Label" HorizontalAlignment="Left" Height="26" Margin="49,302,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblChildren1" Content="Label" HorizontalAlignment="Left" Height="25" Margin="49,328,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblId3" Content="Label" HorizontalAlignment="Left" Height="23" Margin="38,460,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblTitle2" Content="Label" HorizontalAlignment="Left" Height="26" Margin="38,483,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblSlug3" Content="Label" HorizontalAlignment="Left" Height="25" Margin="38,509,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblDescription3" Content="Label" HorizontalAlignment="Left" Height="24" Margin="38,539,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblActive3" Content="Label" HorizontalAlignment="Left" Height="25" Margin="38,568,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblCount3" Content="Label" HorizontalAlignment="Left" Height="29" Margin="38,598,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbl_Ift3" Content="Label" HorizontalAlignment="Left" Height="26" Margin="38,632,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbl_Rgt3" Content="Label" HorizontalAlignment="Left" Height="25" Margin="38,663,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblParent_id3" Content="Label" HorizontalAlignment="Left" Height="27" Margin="38,688,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbldepth3" Content="Label" HorizontalAlignment="Left" Height="26" Margin="38,715,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblChildren2" Content="Label" HorizontalAlignment="Left" Height="25" Margin="38,741,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblId2" Content="Label" HorizontalAlignment="Left" Height="23" Margin="49,47,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblTitle1" Content="Label" HorizontalAlignment="Left" Height="26" Margin="49,70,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblSlug2" Content="Label" HorizontalAlignment="Left" Height="25" Margin="49,96,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblDescription2" Content="Label" HorizontalAlignment="Left" Height="24" Margin="49,126,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblActive2" Content="Label" HorizontalAlignment="Left" Height="25" Margin="49,155,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblCount2" Content="Label" HorizontalAlignment="Left" Height="29" Margin="49,185,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbl_Ift2" Content="Label" HorizontalAlignment="Left" Height="26" Margin="49,219,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbl_Rgt2" Content="Label" HorizontalAlignment="Left" Height="25" Margin="49,250,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblParent_id2" Content="Label" HorizontalAlignment="Left" Height="27" Margin="49,275,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbldepth2" Content="Label" HorizontalAlignment="Left" Height="26" Margin="49,302,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblChildren_Copy1" Content="Label" HorizontalAlignment="Left" Height="25" Margin="49,328,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblId4" Content="Label" HorizontalAlignment="Left" Height="23" Margin="444,460,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblTitle3" Content="Label" HorizontalAlignment="Left" Height="26" Margin="444,483,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblSlug4" Content="Label" HorizontalAlignment="Left" Height="25" Margin="444,509,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblDescription4" Content="Label" HorizontalAlignment="Left" Height="24" Margin="444,539,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblActive4" Content="Label" HorizontalAlignment="Left" Height="25" Margin="444,568,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblCount4" Content="Label" HorizontalAlignment="Left" Height="29" Margin="444,598,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbl_Ift4" Content="Label" HorizontalAlignment="Left" Height="26" Margin="444,632,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbl_Rgt4" Content="Label" HorizontalAlignment="Left" Height="25" Margin="444,663,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblParent_id4" Content="Label" HorizontalAlignment="Left" Height="27" Margin="444,688,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbldepth4" Content="Label" HorizontalAlignment="Left" Height="26" Margin="444,715,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblChildren3" Content="Label" HorizontalAlignment="Left" Height="25" Margin="444,741,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblId1_Copy" Content="Label" HorizontalAlignment="Left" Height="23" Margin="38,826,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblTittle_Copy" Content="Label" HorizontalAlignment="Left" Height="26" Margin="38,849,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblSlug1_Copy" Content="Label" HorizontalAlignment="Left" Height="25" Margin="38,875,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblDescription1_Copy" Content="Label" HorizontalAlignment="Left" Height="24" Margin="38,905,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblActive1_Copy" Content="Label" HorizontalAlignment="Left" Height="25" Margin="38,934,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblCount1_Copy" Content="Label" HorizontalAlignment="Left" Height="29" Margin="38,964,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbl_Ift1_Copy" Content="Label" HorizontalAlignment="Left" Height="26" Margin="38,998,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbl_Rgt1_Copy" Content="Label" HorizontalAlignment="Left" Height="25" Margin="38,1029,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblParent_id1_Copy" Content="Label" HorizontalAlignment="Left" Height="27" Margin="38,1054,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbldepth1_Copy" Content="Label" HorizontalAlignment="Left" Height="26" Margin="38,1081,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblChildren1_Copy" Content="Label" HorizontalAlignment="Left" Height="25" Margin="38,1107,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblId5" Content="Label" HorizontalAlignment="Left" Height="23" Margin="38,826,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblTitle4" Content="Label" HorizontalAlignment="Left" Height="26" Margin="38,849,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblSlug5" Content="Label" HorizontalAlignment="Left" Height="25" Margin="38,875,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblDescription5" Content="Label" HorizontalAlignment="Left" Height="24" Margin="38,905,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblActive5" Content="Label" HorizontalAlignment="Left" Height="25" Margin="38,934,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblCount5" Content="Label" HorizontalAlignment="Left" Height="29" Margin="38,964,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbl_Ift5" Content="Label" HorizontalAlignment="Left" Height="26" Margin="38,998,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbl_Rgt5" Content="Label" HorizontalAlignment="Left" Height="25" Margin="38,1029,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lblParent_id5" Content="Label" HorizontalAlignment="Left" Height="27" Margin="38,1054,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbldepth5" Content="Label" HorizontalAlignment="Left" Height="26" Margin="38,1081,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblChildren4" Content="Label" HorizontalAlignment="Left" Height="25" Margin="38,1107,0,0" VerticalAlignment="Top" Width="148"/>
+    </Grid>
+</Window>

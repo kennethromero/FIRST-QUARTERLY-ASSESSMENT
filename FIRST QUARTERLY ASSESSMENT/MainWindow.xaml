@@ -5,8 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FIRST_QUARTERLY_ASSESSMENT"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="621.333" Width="845.333">
+    <Grid Margin="0,0,0.667,-3" Height="595" VerticalAlignment="Top"/>
 </Window>

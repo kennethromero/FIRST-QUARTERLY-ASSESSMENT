@@ -1,0 +1,75 @@
+[
+   {
+      "id":1,
+      "title":"Game of Thrones",
+      "slug":"game-of-thrones",
+      "description":null,
+      "active":1,
+      "count":0,
+      "_lft":1,
+      "_rgt":8,
+      "parent_id":null,
+      "depth":0,
+      "children":[
+         {
+            "id":6,
+            "title":"Season 5",
+            "slug":"season-5",
+            "description":null,
+            "active":1,
+            "count":0,
+            "_lft":2,
+            "_rgt":5,
+            "parent_id":1,
+            "depth":1,
+            "children":[
+               {
+                  "id":8,
+                  "title":"The Wars To Come",
+                  "slug":"the-wars-to-come",
+                  "description":null,
+                  "active":1,
+                  "count":0,
+                  "_lft":3,
+                  "_rgt":4,
+                  "parent_id":6,
+                  "depth":2,
+                  "children":[
+                     
+                  ]
+               }
+            ]
+         },
+         {
+            "id":7,
+            "title":"Season 4",
+            "slug":"season-4",
+            "description":null,
+            "active":1,
+            "count":0,
+            "_lft":6,
+            "_rgt":7,
+            "parent_id":1,
+            "depth":1,
+            "children":[
+               
+            ]
+         }
+      ]
+   },
+   {
+      "id":3,
+      "title":"The Walking Dead",
+      "slug":"the-walking-dead",
+      "description":null,
+      "active":1,
+      "count":0,
+      "_lft":9,
+      "_rgt":10,
+      "parent_id":null,
+      "depth":0,
+      "children":[
+         
+      ]
+   }
+]
